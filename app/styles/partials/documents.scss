@@ -1,0 +1,21 @@
+.documents--container {
+  display: flex;
+  justify-content: center;
+  padding: 1.5em 5em 3em;
+}
+
+.documents--container ul {
+  flex: 0 0 35%;
+}
+
+.documents--container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-left: 1.6em;
+  margin-bottom: 2em;
+}
+.documents--container a {
+  margin-left: 5em;
+}

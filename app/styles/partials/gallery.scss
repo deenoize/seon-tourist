@@ -1,0 +1,32 @@
+// Галерея
+
+.gallery--content {
+  margin: 3em 4.5em;
+}
+.gallery--content--header {
+  margin-bottom: 2em;
+}
+.gallery--content--header * {
+  display: inline;
+}
+.gallery--content--header a {
+  float: right;
+  opacity: .5;
+}
+
+.gallery--content{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.gallery--content--card {
+  background-color: #144884;
+  padding: 1.5em 3em 9em;
+  margin: 0.5em;
+  flex: 1 0 25%;
+  * {
+    color: white;
+  }
+}

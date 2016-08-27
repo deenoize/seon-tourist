@@ -1,0 +1,36 @@
+// Туры (стили те же, возможно унифицировать потом с остальными плитками)
+
+.tours--all {
+  margin: 3em 4.5em;
+}
+.tours--all--header {
+  margin-bottom: 3em;
+  margin-left: 0.5em;
+}
+.tours--all--header * {
+  display: inline;
+}
+
+.tours--all--content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.tours--all--card {
+  background-color: #144884;
+  padding: 9em 3em 1em;
+  margin: 0.5em;
+  flex: 1 0 25%;
+  * {
+    color: white;
+  }
+  p {
+    font-weight: 300;
+  }
+}
+
+.tours--button__marginright {
+  margin-right: 1em;
+}

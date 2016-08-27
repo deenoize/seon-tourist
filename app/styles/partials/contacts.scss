@@ -1,0 +1,31 @@
+.contacts--container {
+  margin: 5em;
+}
+.contacts--local {
+  .contacts--address {
+    font-size: 1.5em;
+  }
+  .contacts--tel {
+    font-size: 2.2em;
+    color: #651D1E;
+  }
+}
+
+.contacts--web {
+  margin-top: 2em;
+  ul {
+    -webkit-padding-start: 0 !important;
+  }
+  li {
+    display: inline;
+    list-style: none;
+    padding-right: 1.6em;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+//.contacts--map {
+//  width: 80%
+//}

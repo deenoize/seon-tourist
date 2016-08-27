@@ -1,24 +1,51 @@
 extends layouts/default
 
 block content
-  .hero-unit
-    h1 'Allo, 'Allo!
-    p You now have
-    ul
-      li HTML5 Boilerplate
-      li Sass
-      li Modernizr
-      li jQuery
-  .row.marketing
-    .col-lg-6
-      h4 HTML5 Boilerplate
-      p HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-
-      h4 Sass
-      p Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
-
-      h4 Bootstrap
-      p Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
-
-      h4 Modernizr
-      p Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.
+  main.index--container
+    section.index--header
+      h2 Туры по Ставропольскому краю, России и всему миру!
+      p Путешествуйте по всему миру вместе с нами
+      a(href='/').button--inverted.index--button__margintop Выбрать тур
+    section.index--hotsale
+      .index--hotsale--header
+        h2 Горящие туры. Успейте приобрести!
+        a(href='/') Смотреть все горящие туры
+      .index--hotsale--content
+        .index--hotsale--card
+          h3 Экскурсия по Ставрополю
+          p Индивидуальный / Школьникам / Группой
+        .index--hotsale--card
+          h3 Тур по Москве
+          p Индивидуальный / Школьникам / Группой
+        .index--hotsale--card
+          h3 Тур по Санкт-Петербургу
+          p Индивидуальный / Школьникам / Группой
+    section.index--popular
+      .index--popular--header
+        h2 Популярные туры и экскурсии
+        a(href='/') Смотреть все туры
+      .index--popular--content
+        .index--popular--card
+          h3 Экскурсия по Ставрополю
+          p Индивидуальный / Школьникам / Группой
+        .index--popular--card
+          h3 Тур по Москве
+          p Индивидуальный / Школьникам / Группой
+        .index--popular--card
+          h3 Тур по Санкт-Петербургу
+          p Индивидуальный / Школьникам / Группой
+        .index--popular--card
+          h3 Тур в Прагу
+          p Индивидуальный
+        .index--popular--card
+          h3 Тур в Рим
+          p Индивидуальный
+        .index--popular--card
+          h3 Тур в Берлин
+          p Школьникам / Группой
+    section.index--subscribe
+      .index--subscribe--content
+        p Подписаться на email рассылку
+        form(action="#" method="post" name="subscribe").index--subscribe--form
+          input(type="email" id="email" name="email" placeholder="Email")
+          input(type="submit" value="Подписаться").button--inverted
