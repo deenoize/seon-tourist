@@ -4,11 +4,19 @@ block content
   main.tours--container
     section.tours--all
       .tours--all--header
-        a(href='/').button--original__dropdown.tours--button__marginright Все туры
-          i.fa.fa-angle-down
-        a(href='/').button--original__dropdown.tours--button__marginright По всему миру
-          i.fa.fa-angle-down
-        input(type="radio" id="individual" name="radio" checked)
+        //a(href='/').button--original__dropdown.tours--button__marginright Все туры
+        //  i.fa.fa-angle-down
+        //a(href='/').button--original__dropdown.tours--button__marginright По всему миру
+        //  i.fa.fa-angle-down
+        input(type="radio" id="all" name="radio" checked)
+        label(for="all")
+          span
+          | Все туры
+        input(type="radio" id="world" name="radio")
+        label(for="world").tours--radio__marginleft
+          span
+          | По всему миру
+        input(type="radio" id="individual" name="radio")
         label(for="individual").tours--radio__marginleft
           span
           | Индивидуальные туры
@@ -16,7 +24,7 @@ block content
         label(for="group").tours--radio__marginleft
           span
           | Школьные / групповые туры
-        a(href='/').button--original.tours--button__floatright Найти тур
+        //a(href='/').button--original.tours--button__floatright Найти тур
       .tours--all--content
         .tours--all--card
           h3 Экскурсия по Ставрополю

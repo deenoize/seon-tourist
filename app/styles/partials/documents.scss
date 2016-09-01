@@ -2,6 +2,15 @@
   display: flex;
   justify-content: center;
   padding: 1.5em 5em 3em;
+  @media screen and (max-width: 830px) {
+    flex-flow: column;
+  }
+  @media screen and (max-width: 630px) {
+    padding: 1.5em 1em 3em;
+  }
+  @media screen and (max-width: 430px) {
+    padding: 1.5em 1em 3em 0;
+  }
 }
 
 .documents--container ul {
@@ -17,5 +26,9 @@
   margin-bottom: 2em;
 }
 .documents--container a {
+  text-align: center;
   margin-left: 5em;
+  @media screen and (max-width: 430px) {
+    margin-left: 2em;
+  }
 }

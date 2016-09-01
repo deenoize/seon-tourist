@@ -8,6 +8,9 @@
   p {
     font-weight: 200;
   }
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
 }
 
 .tour--button__margintop {
@@ -19,12 +22,21 @@
   max-width: 1200px;
   margin: 5em auto;
   line-height: 2.2;
+  @media screen and (max-width: 1355px) {
+    padding: 0 5em;
+  }
+  @media screen and (max-width: 590px) {
+    padding: 0 1em;
+  }
 }
 
 // Фото
 
 .tour--photo {
   margin: 3em 4.5em;
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
 }
 .tour--photo--header {
   margin-bottom: 2em;
@@ -40,7 +52,7 @@
 .tour--photo--content {
   display: flex;
   justify-content: space-between;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
 }
 
@@ -70,6 +82,12 @@
     color: #651D1E;
     margin-bottom: 1.5em;
     margin-top: 3em;
+  }
+  @media screen and (max-width: 1355px) {
+    padding: 0 5em;
+  }
+  @media screen and (max-width: 590px) {
+    padding: 0 1em;
   }
 }
 
