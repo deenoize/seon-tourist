@@ -28,7 +28,9 @@
 }
 
 .tours--all--card {
-  background-color: #144884;
+  //background-color: #144884;
+  background: url('../../images/47035.jpg') center;
+  background-size: cover;
   padding: 9em 3em 1em;
   margin: 0.5em;
   flex: 1 0 25%;

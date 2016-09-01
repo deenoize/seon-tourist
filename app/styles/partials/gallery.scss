@@ -15,7 +15,9 @@
 }
 
 .gallery--content--card {
-  background-color: #144884;
+  //background-color: #144884;
+  background: url('../../images/42767.jpg') center;
+  background-size: cover;
   padding: 1.5em 3em 9em;
   margin: 0.5em;
   flex: 1 0 25%;

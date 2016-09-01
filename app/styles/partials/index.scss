@@ -1,5 +1,7 @@
 .index--header {
-  background-color: #144884;
+  //background-color: #144884;
+  background: url('../../images/42767.jpg') center;
+  background-size: cover;
   padding: 5em 3em 6em;
   margin: 3em 5em;
   * {
@@ -53,7 +55,9 @@
 }
 
 .index--hotsale--card {
-  background-color: #144884;
+  //background-color: #144884;
+  background: url('../../images/47035.jpg') center;
+  background-size: cover;
   padding: 9em 3em 1em;
   margin: 0.5em;
   flex: 1 0 25%;
@@ -109,7 +113,9 @@
 }
 
 .index--popular--card {
-  background-color: #144884;
+  //background-color: #144884;
+  background: url('../../images/15639.jpg') center;
+  background-size: cover;
   padding: 9em 3em 1em;
   margin: 0.5em;
   flex: 1 0 25%;
