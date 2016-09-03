@@ -4,6 +4,27 @@
   background-color: transparent;
   padding: 0.7em 1.8em;
   text-decoration: none;
+  transition: all .2s ease-in-out;
+  &:after {
+    color: white;
+    opacity: 0;
+    content: '\f072';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    position: absolute;
+  }
+  &:hover {
+    background-color: #082859;
+    color: white;
+    &:after {
+      opacity: 1;
+      transform: translate(8px, -6px);
+    }
+  }
 }
 .button--original__dropdown {
   color: #082859;
@@ -22,6 +43,27 @@
   background-color: transparent;
   padding: 0.7em 1.8em;
   text-decoration: none;
+  transition: all .2s ease-in-out;
+  &:after {
+    color: #082859;
+    opacity: 0;
+    content: '\f072';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    position: absolute;
+  }
+  &:hover {
+    background-color: white;
+    color: #082859;
+    &:after {
+      opacity: 1;
+      transform: translate(8px, -6px);
+    }
+  }
 }
 
 input[type="radio"] {
